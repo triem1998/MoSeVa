@@ -347,10 +347,10 @@ class IAE(pl.LightningModule):
         bar = bar + '-' * int(n_bar * (1-percent_time))
         bar = bar + ' |'
         bar = bar + np.str(int(100 * percent_time))+'%'
-        m, s = divmod(np.int(epoch*epoch_time), 60)
+        m, s = divmod(np.int_(epoch*epoch_time), 60)
         h, m = divmod(m, 60)
         time_run = ' [{:d}:{:02d}:{:02d}<'.format(h, m, s)
-        m, s = divmod(np.int((niter-epoch)*epoch_time), 60)
+        m, s = divmod(np.int_((niter-epoch)*epoch_time), 60)
         h, m = divmod(m, 60)
         time_run += '{:d}:{:02d}:{:02d}]'.format(h, m, s)
 
