@@ -2,6 +2,7 @@
 
 This is the repo for MoSeVa: an automatic identification and quantification algorithm which considers spectral variability for gamma-ray spectrometry.
 ![ ](illustrations/example_moseva.PNG)
+
 The code is organized as follows:
 -  The Code folder contains the source code for the IAE and the MoSeVa,P-OMP algorithm
 -  The Data folder contains the dataset of 96 spectral signatures of 12 radionuclides as a function of steel thickness.
@@ -14,7 +15,10 @@ MoSeVa was coded using Pytorch. To use MoSeVa, you will need the packages listed
 Another way is to use the requirements.txt file:
 -  conda install --yes --file requirements.txt
 ##  Test MoSeVa code
-Run 
+-  Run IAE_CNN_joint_gamma_spectrometry.ipynb if you want to see how IAE works and train a new IAE model with your new data.
+-  Run Identification_quantification_variability.ipynb 
+
+
 
 
    
