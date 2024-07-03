@@ -17,3 +17,11 @@ Another way is to use the requirements.txt file:
 ##  Test MoSeVa code
 -  Run IAE_CNN_joint_gamma_spectrometry.ipynb if you want to see how IAE works and train a new IAE model with your new data.
 -  Run Identification_quantification_variability.ipynb 
+=======
+-  Run Identification_quantification_variability.ipynb 
+
+
+
+
+   
+>>>>>>> 8311ace8bec7a56ba9069462aebe60c344ca5257
