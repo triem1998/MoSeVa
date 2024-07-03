@@ -19,12 +19,12 @@ Another way is to use the requirements.txt file:
 ##  Test MoSeVa code
 -  Run IAE_CNN_joint_gamma_spectrometry.ipynb if you want to see how IAE works and train a new IAE model with your new data.
 -  Run Identification_quantification_variability.ipynb if you want to see how to use MoSeVa.
-
-
-
-
-
-
-
-   
->>>>>>> 8311ace8bec7a56ba9069462aebe60c344ca5257
+## Test on another data
+-  Replace the data in the Data folder with your own data
+-  If you want to use P-OMP (without variabilty):
+      - Simply change the data in the file Identification_quantification_variability.ipynb
+-  If you want to use MoSeVa (with variabilty):
+      - Train a new IAE model in IAE_CNN_joint_gamma_spectrometry.ipynb.
+      - Here are a few tips on how to train IAE effectively: increase the number of anchor points if the variability is very complex, increase the number of layers if the result is not very good.
+      - Update the new IAE model in Identification_quantification_variability.ipynb. The MoSeVa code normally works well with predefined parameters in the notebook.
+        
