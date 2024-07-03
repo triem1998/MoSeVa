@@ -1,4 +1,4 @@
-name: pytorch2
+name: pytorch
 channels:
   - pytorch
   - anaconda
