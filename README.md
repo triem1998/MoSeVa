@@ -14,9 +14,11 @@ MoSeVa was coded using Pytorch. To use MoSeVa, you will need the packages listed
 -  conda env create -f environment.yml
 -  conda activate pytorch
   
-If there is a problem with the installation of Pytorch, please follow this link to install it correctly: [Pytorch](https://pytorch.org/get-started/locally/).
 Another way is to use the requirements.txt file:
 -  conda install --yes --file requirements.txt
+
+If there is a problem with the installation of Pytorch, please follow this link to install it correctly: [Pytorch](https://pytorch.org/get-started/locally/).
+
 ##  Test MoSeVa code
 -  Run IAE_CNN_joint_gamma_spectrometry.ipynb if you want to see how IAE works and train a new IAE model with your new data.
 -  Run Identification_quantification_variability.ipynb if you want to see how to use MoSeVa.
