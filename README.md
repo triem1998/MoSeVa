@@ -13,7 +13,7 @@ The code is organized as follows:
 MoSeVa was coded using Pytorch. To use MoSeVa, you will need the packages listed in environment.yml. To create and activate a conda environment with all the imports needed, do:
 -  conda env create -f environment.yml
 -  conda activate pytorch
-  
+If there is a problem with the installation of Pytorch, please follow this link to install it correctly: [Pytorch](https://pytorch.org/get-started/locally/).
 Another way is to use the requirements.txt file:
 -  conda install --yes --file requirements.txt
 ##  Test MoSeVa code
